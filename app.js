@@ -136,7 +136,7 @@ let logOut = () => {
     .signOut()
     .then(() => {
       console.log("Sign-out successful");
-      window.location.assign("signin.html");
+      window.location.assign("index.html");
     })
     .catch((error) => {
       console.log("error", error.message);

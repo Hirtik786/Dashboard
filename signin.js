@@ -1,3 +1,17 @@
+let usercheck = () =>{
+  firebase.auth().onAuthStateChanged((user) => {
+  if (user) {
+    console.log(user);
+    window.location.assign("Dashboard.html")
+  } else {
+    // User is signed out
+    // ...
+  }
+});
+}
+window.onload = usercheck
+
+
 
 let message1 = document.getElementById("message1");
 let emailSignin = document.getElementById("emailSignin")
