@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: violet;
+}
+#left-section {
+  background-image: linear-gradient(to bottom, red, purple);
+  /* background-color: red; */
+  width: 240px;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 2px solid white;
+}
+#top-section {
+  /* background-color: green; */
+  background-image: linear-gradient(to left, red, purple);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+}
+#admin-text {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+#logout-button {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+  background-color:unset;
+  border: 2px solid white;
+  border-radius: 40px;
+  padding: 10px;
+}
+.link-text {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 20px;
+  
+}
+a {
+  text-decoration: none;
+  color: white;
+  /* padding: 0px 20px; */
+}
+a.active{
+  color: black;
+}
+#body {
+  display: flex;
+  flex-direction: row;
+}
+#right-section {
+  width: 100%;
+}
+#top-text {
+  color: black;
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(107, 0, 107);
+  box-shadow: 3px 3px 10px black;
+  border: 3px solid white;
+  color: white;
+  margin: 7px;
+}
+th,tr{
+    font-size: 20px;
+  background-color: rgb(107, 0, 107);
+  color: white;
+
+}
+td,th{
+padding: 10px;
+font-size: 20px;
+font-family: sans-serif;
+}
+table{
+border: none;
+}
+
+
+
+
+
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 3px solid white;
+  color: white;
+  height: 100px;
+  width: 230px;
+  background-color: rgb(107, 0, 107);
+  box-shadow: 3px 3px 10px black;
+  padding: 5px;
+  /* background-image: linear-gradient(to bottom, red, purple); */
+
+  margin: 10px;
+}
+.box>h1{
+  font-size: 30px;
+}
+.box>p{
+  font-size: 28px;
+}
+
+
+
+
+
+
+
+
