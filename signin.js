@@ -27,7 +27,7 @@ let login = () => {
         setTimeout(() => {
           message1.style.display = "none";
         }, 1000);
-        window.location.assign("index.html")
+        window.location.assign("Dashboard.html")
       })
       .catch((error) => {
         console.log("error", error.message);
