@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="app.css" />
-    
+
     <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
@@ -22,8 +22,7 @@
   measurementId: "G-Y897PW6MH4"
 };
       firebase.initializeApp(firebaseConfig);
-      </script>
-
+    </script>
   </head>
   <body>
     <div>
@@ -45,26 +44,44 @@
           </div>
         </div>
         <div id="right-section">
-          <h1 id="top-text">Students Data</h1>
-
-          <div id="hello">
-            <!-- <ul id="ul"></ul> -->
-            <table id="ul" border="1" style="width: 100%;">
-             <tr>
-                <th>Name</th>
-                <th>Father Name</th>
-                <th>Email Address</th>
-                <th>Mobile Number</th>
-                <th>CNIC Number</th>
-                <th>Course</th>
-                <th>Gender</th>
-              </tr>
-            </table> 
-          </div>
+          <h1 id="top-text">Dashboard</h1>
+          <div style="display: flex; flex-direction: row; width: 100% ;flex-wrap: wrap; margin-left: 20px;"> 
+            <div class="box">
+              <h1>Total Students :-</h1>
+              <p id="totalStudents">Loading...</p>
+            </div>
+            <div class="box">
+              <h1>Web Development :-</h1>
+              <p id="webStudents">Loading...</p>
+            </div>
+            <div class="box">
+              <h1>App Development :-</h1>
+              <p id="appStudents">Loading...</p>
+            </div>
+            <div class="box">
+              <h1>Graphic Designing :-</h1>
+              <p id="GraphicStudents">Loading...</p>
+            </div>
+            <div class="box">
+              <h1>Social Media Marketing :-</h1>
+              <p id="SocialStudents">Loading...</p>
+            </div>
+            <div class="box">
+              <h1> Wordpress :-</h1>
+              <p id="wordpressStudents">Loading...</p>
+            </div>
+            <div class="box">
+              <h1>Male :-</h1>
+              <p id="maleStudents">Loading...</p>
+            </div>
+            <div class="box">
+              <h1> Female :-</h1>
+              <p id="femaleStudents">Loading...</p>
+            </div>
+            
         </div>
       </div>
     </div>
   </body>
   <script src="app.js"></script>
-
 </html>
