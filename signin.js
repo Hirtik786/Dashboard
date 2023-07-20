@@ -1,15 +1,17 @@
-let usercheck = () =>{
-  firebase.auth().onAuthStateChanged((user) => {
-  if (user) {
-    console.log(user);
-    window.location.assign("Dashboard.html")
-  } else {
-    // User is signed out
-    // ...
-  }
-});
-}
-window.onload = usercheck
+// let usercheck = () =>{
+//   firebase.auth().onAuthStateChanged((user) => {
+//   if (user) {
+//     console.log(user);
+//     window.location.assign("Dashboard.html")
+//   } else {
+//     window.location.assign("index.html")
+//     // User is signed out
+
+//     // ...
+//   }
+// });
+// }
+// window.onload = usercheck
 
 
 

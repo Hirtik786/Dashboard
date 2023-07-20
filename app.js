@@ -21,6 +21,7 @@ let hi = () => {
         console.log("data", docRes.data());
         let li = document.createElement("tr");
         ul.appendChild(li);
+
         let li1 = document.createElement("td");
         li.appendChild(li1);
         li1.innerHTML = docRes.data().Username;
